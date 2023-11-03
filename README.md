@@ -4,7 +4,7 @@ Script for generating certificate requests with subject alternative name(s) for 
 
 1. Generate private key (if you don't have)
 ```
-openssl genrsa -out yourdomain.key 2048
+openssl genrsa -out server01.key 2048
 ```
 
 2. Generate csr
