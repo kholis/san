@@ -75,6 +75,9 @@ utf8=yes
 [dn]
 ${dn}
 [san]
+basicConstraints = CA:FALSE
+keyUsage = digitalSignature, keyEncipherment
+extendedKeyUsage = serverAuth, clientAuth
 subjectAltName=${san}
 ")
 
