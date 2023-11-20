@@ -81,4 +81,4 @@ extendedKeyUsage = serverAuth, clientAuth
 subjectAltName=${san}
 ")
 
-echo "Wrote ${key}.csr"
+echo "Wrote ${csr}"
