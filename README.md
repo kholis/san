@@ -27,3 +27,8 @@ $ openssl req -in server01.csr -noout -text
                 DNS:server01.example.com
                 IP:10.10.10.10
 ```
+
+4. [Optional] You can also convert cert from PEM format to JKS format with these command:
+```
+$ ./pem2jks.sh server01
+```
