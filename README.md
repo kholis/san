@@ -29,6 +29,15 @@ $ openssl req -in server01.csr -noout -text
 ```
 
 4. [Optional] You can also convert cert from PEM format to JKS format with these command:
+
+- Edit these 3 variable first:
+```
+DOMAIN=".example.com"
+KS_PWD="YourSecretPasswd"
+TS_PWD="changeit"
+```
+
+- Run Command:
 ```
 $ ./pem2jks.sh server01
 ```
